@@ -57,11 +57,24 @@
 	object-fit: cover;
 }
 
+/*---------------------------------------------------------------register-*/
+
+#register {
+	height: 9rem;
+	background: var(--dark-color);
+	opacity: 0.8;
+}
+
 /*-----------------------------------------------------------------bottom-*/
 
 #bottom {
 	height: 12rem;
 	background: var(--mid-color);
+}
+
+#bottom ul {
+	list-style: none;
+	padding: 0;
 }
 
 /*-----------------------------------------------------------------footer-*/
