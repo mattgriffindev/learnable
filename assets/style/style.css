@@ -60,9 +60,26 @@
 /*---------------------------------------------------------------register-*/
 
 #register {
-	height: 9rem;
+	min-height: 9rem;
 	background: var(--dark-color);
 	opacity: 0.8;
+}
+
+#firstname,
+#emailaddress {
+	width: 20rem;
+}
+
+#contactForm {
+	border: 1px solid green;
+}
+
+.table {
+	display: table;
+}
+
+.table-cell {
+	display: table-cell;
 }
 
 /*-----------------------------------------------------------------bottom-*/

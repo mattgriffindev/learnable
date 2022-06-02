@@ -170,7 +170,22 @@
     <section id="register">
         <div class="container">
             <div class="row">
-                REGISTER
+                REGISTER TO RECEIVE SPECIAL OFFERS AND LATEST NEWS VIA EMAIL
+                <form id="contactForm" onsubmit="return sendMail(this);">
+                    <div class="table">
+                        <div class="table-cell">
+                            <label for="firstname">First name</label>
+                            <input type="text" name="name" class="form-control mb-2" id="firstname"
+                                placeholder="Your first name" required />
+                        </div>
+                        <div class="table-cell">
+                            <label for="emailaddress">Email address</label>
+                            <input type="email" name="emailaddress" class="form-control mb-2" id="emailaddress"
+                                placeholder="Your email address" required />
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-danger rounded-pill" aria-label="Register">Register</button>
+                </form>
             </div>
         </div>
     </section>
