@@ -85,6 +85,13 @@ p {
 	background-size: auto;
 }
 
+/*----------------------------------------------------------------reasons-*/
+
+.reasons-icon {
+	color: var(--brand-color);
+	font-size: 3.25rem;
+}
+
 /*----------------------------------------------------------------courses-*/
 
 .course-image-container {
