@@ -9,6 +9,10 @@
 	box-sizing: border-box;
 }
 
+p {
+	margin: 0;
+}
+
 /*-----------------------------------------------------------------navbar-*/
 
 .navbar-toggler {
@@ -48,7 +52,6 @@
 .course-image-container {
 	height: 10rem;
 	width: 100%;
-	border: 1px solid black;
 }
 
 .course-image {
@@ -58,7 +61,8 @@
 }
 
 .course-description-container {
-	background: lightgrey;
+	height: 12rem;
+	background: #F5F5F5;
 }
 
 /*---------------------------------------------------------------register-*/
