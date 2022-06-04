@@ -165,13 +165,18 @@ p {
 
 .register-left,
 .register-right {
-	height: 10rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	display: flex;
 	align-items: center;
 }
 
 .register-right {
 	justify-content: center;
+}
+
+.form-control {
+	margin-bottom: 0.75rem;
 }
 
 /*-----------------------------------------------------------------bottom-*/
