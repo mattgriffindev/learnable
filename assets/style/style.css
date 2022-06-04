@@ -5,7 +5,7 @@
 	--light-color: #FFFFFF;
 	  }
 
-* {
+html {
 	box-sizing: border-box;
 }
 
@@ -71,7 +71,7 @@ p {
 .hero-image {
 	background: url("../../assets/image/hero.png") no-repeat center center;
 	height: 100%;
-	width: 100%;
+	width: auto;
 	background-size: auto;
 }
 
@@ -118,9 +118,14 @@ p {
 /*---------------------------------------------------------------register-*/
 
 #register {
-	min-height: 9rem;
-	background: var(--dark-color);
-	opacity: 0.8;
+	height: 10rem;
+	background: #F5F5F5;
+	padding: 0;
+}
+
+#register h4 {
+	margin: 0;
+	padding: 0;
 }
 
 #firstname,
@@ -129,15 +134,23 @@ p {
 }
 
 #contactForm {
-	border: 1px solid green;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding: 0;
+	margin: 0;
 }
 
-.table {
-	display: table;
+.register-left {
+
+	display: flex;
+	align-items: center;
 }
 
-.table-cell {
-	display: table-cell;
+.register-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /*-----------------------------------------------------------------bottom-*/
@@ -163,6 +176,10 @@ p {
 	background: var(--dark-color);
 }
 
+#footer p {
+	font-size: 1rem;
+}
+
 .social-media-icon {
 	margin-right: 1.5rem;
 	font-size: 1.25rem;
@@ -174,4 +191,9 @@ p {
 	color: var(--light-color);
 	font-weight: 500;
 	background: var(--brand-color);
+}
+
+#break {
+	content: "";
+	height: 3rem;
 }

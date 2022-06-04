@@ -100,13 +100,13 @@
     <!--/hero-->
 
     <!--news-->
-    <section id="news">
+    <!-- <section id="news">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-6 news-left">LEFT</div>
                 <div class="col-12 col-md-6 news-right">RIGHT</div>
             </div>
-        </div>
+        </div> -->
     </section>
     <!--/news-->
 
@@ -191,26 +191,24 @@
     </section>
     <!--/featured-courses-->
 
+    <div id="break"></div>
+
     <!--register-->
     <section id="register">
         <div class="container">
             <div class="row">
-                REGISTER TO RECEIVE SPECIAL OFFERS AND LATEST NEWS VIA EMAIL
-                <form id="contactForm" onsubmit="return sendMail(this);">
-                    <div class="table">
-                        <div class="table-cell">
-                            <label for="firstname">First name</label>
-                            <input type="text" name="name" class="form-control mb-2" id="firstname"
-                                placeholder="Your first name" required />
-                        </div>
-                        <div class="table-cell">
-                            <label for="emailaddress">Email address</label>
-                            <input type="email" name="emailaddress" class="form-control mb-2" id="emailaddress"
-                                placeholder="Your email address" required />
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-danger rounded-pill" aria-label="Register">Register</button>
-                </form>
+                <div class="col-12 col-md-6 register-left">
+                    <h4>Register to recieve special offers and latest news via email</h4>
+                </div>
+                <div class="col-12 col-md-6 register-right">
+                    <form id="contactForm" onsubmit="return sendMail(this);">
+                        <input type="text" name="name" class="form-control mb-2" id="firstname"
+                            placeholder="Your first name" required />
+                        <input type="email" name="emailaddress" class="form-control mb-2" id="emailaddress"
+                            placeholder="Your email address" required />
+                        <button type="submit" class="btn btn-main rounded-pill" aria-label="Register">Register</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -245,7 +243,8 @@
                     <strong>Contact Us</strong>
                     <ul>
                         <li>Call <strong>0330 123 4567</strong></li>
-                        <li>Email <strong><a href="mailto:matt.griffin@live.co.uk">info@learnable.co.uk</a></strong></li>
+                        <li>Email <strong><a href="mailto:matt.griffin@live.co.uk">info@learnable.co.uk</a></strong>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -260,17 +259,17 @@
                 <div class="col-12 col-md-6 text-start">
                     <span>
                         <a href="https://www.twitter.com" target="_blank"><i
-                            class="social-media-icon fab fa-twitter"></i></a>
+                                class="social-media-icon fab fa-twitter"></i></a>
                         <a href="https://www.facebook.com" target="_blank"><i
-                            class="social-media-icon fab fa-facebook-f"></i></a>
+                                class="social-media-icon fab fa-facebook-f"></i></a>
                         <a href="https://www.linkedin.com" target="_blank"><i
-                            class="social-media-icon fab fa-linkedin-in"></i></a>
+                                class="social-media-icon fab fa-linkedin-in"></i></a>
                         <a href="https://www.youtube.com" target="_blank"><i
-                            class="social-media-icon fab fa-youtube"></i></a>
+                                class="social-media-icon fab fa-youtube"></i></a>
                     </span>
                 </div>
                 <div class="col-12 col-md-6 text-end">
-                    &copy; 2022. LearnAble Ltd. For academic purposes only.
+                    <p>&copy; 2022. LearnAble Ltd. For academic purposes only.</p>
                 </div>
             </div>
         </div>
