@@ -99,6 +99,14 @@ p {
 
 /*----------------------------------------------------------------courses-*/
 
+#featured-courses {
+	padding-bottom: 3rem;
+}
+
+#featured-courses .btn {
+	width: 80%;
+}
+
 .course-image-container {
 	height: 10rem;
 	width: 100%;
@@ -112,7 +120,18 @@ p {
 
 .course-description-container {
 	height: 12rem;
+	padding: 1rem;
+	position: relative;
 	background: #F5F5F5;
+}
+
+.course-description-button {
+	width: 100%;
+	position: absolute;
+	bottom: 0.5rem;
+	left: 0;
+	display: flex;
+	justify-content: center;
 }
 
 /*---------------------------------------------------------------register-*/
@@ -197,9 +216,4 @@ p {
 	color: var(--light-color);
 	font-weight: 500;
 	background: var(--brand-color);
-}
-
-#break {
-	content: "";
-	height: 3rem;
 }
