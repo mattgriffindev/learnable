@@ -199,8 +199,6 @@ p {
 /*-----------------------------------------------------------------footer-*/
 
 #footer {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
 	display: flex;
 	align-items: center;
 	color: var(--light-color);
@@ -209,6 +207,12 @@ p {
 
 #footer p {
 	font-size: 1rem;
+}
+
+.footer-left,
+.footer-right {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 }
 
 .social-media-icon {
