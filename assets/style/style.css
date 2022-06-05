@@ -73,7 +73,7 @@ h1 {
 	height: 300px;
 	padding-left: 0;
 	padding-right: 0;
-	background: lightcyan;
+	position: relative;
 }
 
 .hero-text {
@@ -284,4 +284,13 @@ h1 {
 	color: var(--light-color);
 	font-weight: 500;
 	background: var(--brand-color);
+}
+
+.hero-fas {
+	color: var(--brand-color);
+	font-size: 15rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+    z-index: -1;
 }
