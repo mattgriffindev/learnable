@@ -159,11 +159,12 @@ h1 {
 }
 
 .badge {
+	font-size: 1rem;
 	background: red;
 }
 
 .course-title {
-	margin: 0.25rem auto;
+	margin: 0.5rem auto;
 }
 
 /*---------------------------------------------------------------register-*/
@@ -229,6 +230,11 @@ h1 {
 	margin-bottom: 0.25rem;
 }
 
+#bottom a {
+	color: inherit;
+	text-decoration: none;
+}
+
 .bottom-col {
 	margin-top: 1rem;
 }
@@ -263,6 +269,7 @@ h1 {
 
 .social-media-icon {
 	margin-right: 1.5rem;
+	color: var(--light-color);
 	font-size: 1.25rem;
 }
 
