@@ -66,19 +66,19 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid red;
+	background: lightgrey;
 }
 
 .hero-right {
-	height: 275px;
+	height: 300px;
 	padding-left: 0;
 	padding-right: 0;
-	border: 1px solid green;
+	background: lightcyan;
 }
 
 .hero-text {
 	width: 80%;
-	border: 1px solid blue;
+	background: white;
 }
 
 .hero-text h2,
@@ -90,7 +90,7 @@ h1 {
 	background: url("../../assets/image/hero.png") no-repeat center center;
 	height: 100%;
 	width: auto;
-	background-size: auto;
+	background-size: contain;
 }
 
 /*-------------------------------------------------------------------news-*/
@@ -169,6 +169,7 @@ h1 {
 }
 
 #contactForm {
+	width: 100%;
 	display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,6 +179,7 @@ h1 {
 }
 
 #register input {
+	width: 60%;
 	border: 1px solid var(--mid-color);
 }
 
