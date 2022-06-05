@@ -29,6 +29,10 @@ h1 {
 	color: var(--brand-color);
 }
 
+.navbar-brand {
+	color: #212529;
+}
+
 .navbar-toggler {
 	border: none;
 }
@@ -226,6 +230,11 @@ h1 {
 .footer-right {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
+}
+
+.footer-left {
+	display: flex;
+    align-items: center;
 }
 
 .social-media-icon {
