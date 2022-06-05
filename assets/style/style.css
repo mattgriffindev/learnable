@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
 :root {
 	--brand-color: #EA3F45;
 	--dark-color: #0C1115;
 	--mid-color: #235789;
 	--light-color: #F3F4F5;
+
+	--font1: 'Paytone One';
+	--font2: 'Lobster', cursive;
 	  }
 
 html {
@@ -14,6 +20,10 @@ p {
 }
 
 /*-----------------------------------------------------------------navbar-*/
+
+h1 {
+	font-family: var(--font1);
+}
 
 #navbar .fas {
 	color: var(--brand-color);
@@ -36,6 +46,10 @@ p {
 	color: var(--brand-color);
 	font-size: 1.25rem;
 	font-weight: 500;
+}
+
+.able {
+	font-family: var(--font2);
 }
 
 /* .dropdown-toggle::after {
