@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 :root {
-	--brand-color: #EA3F45;
-	--dark-color: #0C1115;
-	--mid-color: #235789;
-	--light-color: #F3F4F5;
+	--brand-color: #3CB35A;
+	--dark-color: #03012C;
+	--mid-color: #635E79;
+	--light-color: #FFFFFF;
 
 	--font1: 'Paytone One';
 	--font2: 'Lobster', cursive;
@@ -211,8 +211,16 @@ h1 {
 	padding: 0;
 }
 
+#bottom li {
+	margin-bottom: 0.25rem;
+}
+
 .bottom-col {
 	margin-top: 1rem;
+}
+
+.bottom-heading {
+	font-weight: 700;
 }
 
 /*-----------------------------------------------------------------footer-*/
