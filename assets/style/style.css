@@ -244,6 +244,11 @@ h1 {
 
 /*-------------------------------------------------------------------misc-*/
 
+.section-title {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
 .btn-main {
 	color: var(--light-color);
 	font-weight: 500;
