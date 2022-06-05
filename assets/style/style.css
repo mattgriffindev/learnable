@@ -153,6 +153,19 @@ h1 {
 	justify-content: center;
 }
 
+.subject {
+	margin-bottom: 0.25rem;
+	font-weight: 700;
+}
+
+.badge {
+	background: red;
+}
+
+.course-title {
+	margin: 0.25rem auto;
+}
+
 /*---------------------------------------------------------------register-*/
 
 #register {
