@@ -93,6 +93,15 @@ h1 {
 	background-size: contain;
 }
 
+.hero-fas {
+	color: var(--brand-color);
+	font-size: 15rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+    z-index: -1;
+}
+
 /*-------------------------------------------------------------------news-*/
 
 .news-left,
@@ -159,7 +168,7 @@ h1 {
 }
 
 .badge {
-	font-size: 1rem;
+	font-size: 0.8rem;
 	background: red;
 }
 
@@ -286,11 +295,9 @@ h1 {
 	background: var(--brand-color);
 }
 
-.hero-fas {
+.btn-main-reverse {
+	margin-right: 0.5rem;
 	color: var(--brand-color);
-	font-size: 15rem;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-    z-index: -1;
+	font-weight: 500;
+	background: var(--light-color);	
 }
